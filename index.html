@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  <title>Document</title>
+</head>
+<body>
+  <!-- Top Section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <!-- d-none -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>You are<span class="text-primary display-4 p-3">0%</span> ninja</p>
+    </div>
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-5 text-white">On With The Questions...</h2>
+      <form class="quiz-form text-light">
+        <!-- Quiz 1 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">1.在《辐射4》中，如何获徖双持枪的特技？</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">A. 通过任务获得</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">B. 通过培训获得</label>
+          </div>
+        </div>
+        <!-- Quiz 2 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">2.在《生化危机2》中，如何打开黑色钥匙的门？</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">A. 使用黑色钥匙</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">B. 使用红色钥匙</label>
+          </div>
+        </div>
+        <!-- Quiz 3 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">3.在《使命召唤》中，如何使用压制火力？</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">A. 按住射击键不放</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">B. 按住瞄准键不放</label>
+          </div>
+        </div>
+        <!-- Quiz 4 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">4.在《战地1》中，如何打开水闸门？</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">A. 按动摇杆</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">B. 按下X键</label>
+          </div>
+        </div>
+        <!-- Quiz 5 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">5.在《马里奥赛车》中，如何使用防滑技能？</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="A" checked>
+            <label class="form-check-label">A. 按住B键不放</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="B">
+            <label class="form-check-label">B. 按下X键</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light" value="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
